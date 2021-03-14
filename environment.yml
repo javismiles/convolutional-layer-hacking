@@ -1,0 +1,11 @@
+name: nn-predict-malignancy
+channels:
+- defaults
+dependencies:
+- python
+- numpy
+- matplotlib
+- pandas
+- pip
+- pip:
+  - sklearn_pandas
