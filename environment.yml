@@ -1,9 +1,0 @@
-name: convolutional-layer-hacking
-channels:
-  - defaults
-dependencies:
-  - torch
-  - torchvision
-  - python
-  - numpy
-  - matplotlib

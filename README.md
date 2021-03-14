@@ -14,3 +14,5 @@ Create a convolutional layer from scratch in python, hack its weights with custo
 - Code from scratch in python a convolutional layer to understand bit by bit what is going on when we pass data through one of these layers.
 - Hack the parameters of the convnet to produce a mix of custom kernels and random ones.
 - Compare the results using Pytorch and Python-numpy to verify that we obtain exactly the same outputs. Ready? Let's do it.
+
+![Alt text](./images/convolutional-layer-computations.jpg?raw=true "Convolutional layer hacking")
