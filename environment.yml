@@ -1,11 +1,9 @@
-name: nn-predict-malignancy
+name: convolutional-layer-hacking
 channels:
-- defaults
+  - defaults
 dependencies:
-- python
-- numpy
-- matplotlib
-- pandas
-- pip
-- pip:
-  - sklearn_pandas
+  - torch
+  - torchvision
+  - python
+  - numpy
+  - matplotlib

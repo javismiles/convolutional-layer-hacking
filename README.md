@@ -1,23 +1,16 @@
-# Predicting Cancer Malignancy with a 2 layer neural network coded from scratch in Python.
+# Convolutional layer hacking with Python and numpy
 
-![The Loss Landscape](https://github.com/javismiles/Deep-Learning-predicting-breast-cancer-tumor-malignancy/blob/master/images/loss-landscape-deep-learning-animation-cover2.gif?raw=true)
+Create a convolutional layer from scratch in python, hack its weights with custom kernels, and verify that its results match what pytorch produces.
 
 **Access the code with this link<br>
-<a href="https://github.com/javismiles/Deep-Learning-predicting-breast-cancer-tumor-malignancy/blob/master/nn-2l-raw.ipynb" target="_blank">Python Jupyter Notebook</a>**
+<a href="https://github.com/javismiles/convolutional-layer-hacking/blob/master/Convolutional_layer_hacking.ipynb" target="_blank">Python Jupyter Notebook</a>**
 
-**This notebook holds the Python code connected to this 3 part article:**
+**This notebook holds the Python code connected to this medium article:**
 
-**<a href="https://towardsdatascience.com/the-keys-of-deep-learning-in-100-lines-of-code-907398c76504" target="_blank">Part 1</a> | <a href="https://towardsdatascience.com/coding-a-2-layer-neural-network-from-scratch-in-python-4dd022d19fd2" target="_blank">Part 2</a> | <a href="https://towardsdatascience.com/predict-malignancy-in-breast-cancer-tumors-with-your-own-neural-network-and-the-wisconsin-dataset-76271a05e941" target="_blank">Part 3</a>**<br>
+**<a href="https://towardsdatascience.com/convolutional-layer-hacking-with-python-and-numpy-e5f64812ca0c" target="_blank">Article with all the details</a>**<br>
 
-**With this code and the associated articles, you are going to:**
-- Create a neural network from scratch in Python. Train it using the gradient descent algorithm.
-- Apply that basic network to The Wisconsin Cancer Data-set. Predict if a tumor is benign or malignant, based on 9 different features.
-- Explore deeply how back-propagation and gradient descent work.
-- Review the basics and explore advanced concepts. 
+**With this code and the associated article, you are going to:**
 
-**The data comes from The Wisconsin Cancer Data-set.**<br>
-This data was gathered by the University of Wisconsin Hospitals, Madison and by Dr. William H. Wolberg.<br>
-**By request of the owners of the data**: we mention one of the studies linked to the data-set: O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.
-
-
-
+- Code from scratch in python a convolutional layer to understand bit by bit what is going on when we pass data through one of these layers.
+- Hack the parameters of the convnet to produce a mix of custom kernels and random ones.
+- Compare the results using Pytorch and Python-numpy to verify that we obtain exactly the same outputs. Ready? Let's do it.
